@@ -1,0 +1,293 @@
+{
+  "PatchName": "Left All Apps Rounded (fixed)",
+  "AuthorName": "M1ke & OleSTEEP",
+  "TargetName": "Flaunch.szs",
+  "ID": "Themezer:11",
+  "Files": [
+    {
+      "FileName": "blyt/FlcCntMain.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Header",
+          "Position": {
+            "X": -300.0,
+            "Y": 360.0
+          }
+        },
+        {
+          "PaneName": "N_Sort",
+          "Position": {
+            "X": -100.0,
+            "Y": -100.0
+          }
+        },
+        {
+          "PaneName": "NH_Root",
+          "Position": {
+            "X": -210.0,
+            "Y": 190.0
+          }
+        },
+        {
+          "PaneName": "L_Header",
+          "Position": {
+            "X": 200.0,
+            "Y": -678.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnGrp",
+          "Position": {
+            "X": 290.0,
+            "Y": -35.0
+          }
+        },
+        {
+          "PaneName": "L_BtnSort",
+          "Position": {
+            "X": 290.0,
+            "Y": -35.0
+          }
+        },
+        {
+          "PaneName": "T_00",
+          "Position": {
+            "Y": 40.0
+          }
+        },
+        {
+          "PaneName": "T_01",
+          "Position": {
+            "X": -282.0,
+            "Y": 40.0
+          }
+        },
+        {
+          "PaneName": "N_Cnt",
+          "Position": {
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "N_Top",
+          "Position": {
+            "Y": 150.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_00",
+          "Position": {
+            "X": -50.0,
+            "Y": -318.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_01",
+          "Position": {
+            "X": -50.0,
+            "Y": -404.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_02",
+          "Position": {
+            "X": -50.0,
+            "Y": -490.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_03",
+          "Position": {
+            "X": -50.0,
+            "Y": -576.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_04",
+          "Position": {
+            "X": -50.0,
+            "Y": -662.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_05",
+          "Position": {
+            "X": -50.0,
+            "Y": -748.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_06",
+          "Position": {
+            "X": -50.0,
+            "Y": -834.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        },
+        {
+          "PaneName": "L_BtnIconGame_07",
+          "Position": {
+            "X": -50.0,
+            "Y": -920.0
+          },
+          "Size": {
+            "X": 1094.0,
+            "Y": 138.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/TextH1.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Line",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/FlcBtnIconGameBlock.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_BtnIconGame_00",
+          "Position": {
+            "X": -340.0
+          }
+        },
+        {
+          "PaneName": "N_BtnIconGame_01",
+          "Position": {
+            "X": -204.0
+          }
+        },
+        {
+          "PaneName": "N_BtnIconGame_02",
+          "Position": {
+            "X": -68.0
+          }
+        },
+        {
+          "PaneName": "N_BtnIconGame_03",
+          "Position": {
+            "X": 68.0
+          }
+        },
+        {
+          "PaneName": "N_BtnIconGame_04",
+          "Position": {
+            "X": 204.0
+          }
+        },
+        {
+          "PaneName": "N_BtnIconGame_05",
+          "Position": {
+            "X": 340.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/FlcBtnIconGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Scale": {
+            "X": 0.75,
+            "Y": 0.75
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Visible": false
+        },
+        {
+          "PaneName": "B_Hit",
+          "Size": {
+            "X": 97.0,
+            "Y": 97.0
+          }
+        },
+        {
+          "PaneName": "P_BtnBase",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "45"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_IconGame",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "45"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "P_InnerCursor",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "45"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "45"
+              ],
+              "type": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
