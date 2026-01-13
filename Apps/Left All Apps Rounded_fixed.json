@@ -2,7 +2,7 @@
   "PatchName": "Left All Apps Rounded (fixed)",
   "AuthorName": "M1ke & OleSTEEP",
   "TargetName": "Flaunch.szs",
-  "ID": "Themezer:11",
+  "ID": "Generated_dc397dbc-b49c-4bed-afb6-31f011460ea9",
   "Files": [
     {
       "FileName": "blyt/FlcCntMain.bflyt",
@@ -169,6 +169,14 @@
       ]
     },
     {
+      "FileName": "blyt/BaseBg.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Loading"
+        }
+      ]
+    },
+    {
       "FileName": "blyt/TextH1.bflyt",
       "Patches": [
         {
@@ -252,6 +260,18 @@
           ]
         },
         {
+          "PaneName": "P_Blank",
+          "UsdPatches": [
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "45"
+              ],
+              "type": 2
+            }
+          ]
+        },
+        {
           "PaneName": "P_IconGame",
           "UsdPatches": [
             {
@@ -286,6 +306,9 @@
               "type": 2
             }
           ]
+        },
+        {
+          "PaneName": "L_Loading"
         }
       ]
     }
